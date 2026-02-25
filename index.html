@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="שירותי אינסטלציה מקצועיים באזור המרכז - איתור נזילות, פתיחת סתימות, תיקון פיצוצים, דודי שמש וחשמל">
+    <meta name="keywords" content="אינסטלטור, אינסטלציה, נזילות, סתימות, דוד שמש, דוד חשמל, חירום">
+    <meta name="author" content="עידן אברהמי">
+    <title>עידן אברהמי - אינסטלטור מוסמך</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&family=Assistant:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons (Lucide via CDN) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <a href="#home" class="logo">
+                    <img src="images/logo.jpg" alt="עידן אברהמי אינסטלטור" class="logo-img">
+                    <div class="logo-text">
+                        <span class="logo-title">עידן אברהמי</span>
+                        <span class="logo-subtitle">אינסטלטור מוסמך</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="#home" class="nav-link">דף הבית</a>
+                    <a href="#services" class="nav-link">שירותים</a>
+                    <a href="#testimonials" class="nav-link">המלצות</a>
+                    <a href="#contact" class="nav-link">יצירת קשר</a>
+                </nav>
+
+                <!-- Desktop CTAs -->
+                <div class="header-ctas">
+                    <a href="tel:050-246-2224" class="btn btn-outline">
+                        <i data-lucide="phone" class="icon"></i>
+                        התקשר עכשיו
+                    </a>
+                    <a href="https://wa.me/972502462224?text=שלום, אשמח לעזרה באינסטלציה" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                        <i data-lucide="message-square" class="icon"></i>
+                        WhatsApp
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <i data-lucide="menu" class="icon"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile" id="mobileNav">
+                <a href="#home" class="nav-link-mobile">דף הבית</a>
+                <a href="#services" class="nav-link-mobile">שירותים</a>
+                <a href="#testimonials" class="nav-link-mobile">המלצות</a>
+                <a href="#contact" class="nav-link-mobile">יצירת קשר</a>
+                <div class="mobile-ctas">
+                    <a href="tel:050-246-2224" class="btn btn-outline btn-block">
+                        <i data-lucide="phone" class="icon"></i>
+                        התקשר עכשיו
+                    </a>
+                    <a href="https://wa.me/972502462224?text=שלום, אשמח לעזרה באינסטלציה" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">
+                        <i data-lucide="message-square" class="icon"></i>
+                        WhatsApp
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <!-- Content -->
+                    <div class="hero-text">
+                        <div class="hero-badge">
+                            <i data-lucide="check-circle" class="icon"></i>
+                            זמין 24/7 לקריאות חירום
+                        </div>
+
+                        <h1 class="hero-title">
+                            אינסטלטור מוסמך ב<span class="text-primary">אזור המרכז</span>
+                            <br>
+                            מגיעים מהר, פותרים ביעילות
+                        </h1>
+
+                        <p class="hero-description">
+                            שירותי אינסטלציה מקצועיים עם ניסיון של מעל 10 שנים
+                            <br>
+                            <span class="hero-features">ציוד מתקדם • שירות אמין • מחירים הוגנים</span>
+                        </p>
+
+                        <div class="hero-services">
+                            <div class="service-item">
+                                <i data-lucide="check-circle" class="icon icon-success"></i>
+                                <span>איתור נזילות</span>
+                            </div>
+                            <div class="service-item">
+                                <i data-lucide="check-circle" class="icon icon-success"></i>
+                                <span>פתיחת סתימות</span>
+                            </div>
+                            <div class="service-item">
+                                <i data-lucide="check-circle" class="icon icon-success"></i>
+                                <span>תיקון פיצוצים</span>
+                            </div>
+                            <div class="service-item">
+                                <i data-lucide="check-circle" class="icon icon-success"></i>
+                                <span>דודי שמש וחשמל</span>
+                            </div>
+                        </div>
+
+                        <div class="hero-ctas">
+                            <a href="tel:050-246-2224" class="btn btn-success btn-lg">
+                                <i data-lucide="phone" class="icon"></i>
+                                התקשר עכשיו
+                            </a>
+                            <a href="https://wa.me/972502462224?text=שלום עידן, אשמח לעזרה באינסטלציה" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">
+                                <i data-lucide="message-square" class="icon"></i>
+                                WhatsApp
+                            </a>
+                            <a href="#contact" class="btn btn-secondary btn-lg">
+                                <i data-lucide="calendar" class="icon"></i>
+                                קבע ביקור
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Image Slider -->
+                    <div class="hero-image">
+                        <div class="image-slider" id="imageSlider">
+                            <img src="images/hero-main.jpg" alt="עידן אברהמי אינסטלטור מקצועי - ציוד אינסטלציה מתקדם" class="slider-image active">
+                            <img src="images/hero-main2.jpg" alt="עידן אברהמי - עבודות אינסטלציה מקצועיות" class="slider-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trust Strip -->
+            <div class="trust-strip">
+                <div class="container">
+                    <div class="trust-grid">
+                        <div class="trust-item">
+                            <div class="trust-number">500+</div>
+                            <div class="trust-label">לקוחות מרוצים</div>
+                        </div>
+                        <div class="trust-item">
+                            <div class="trust-number">30 דק׳</div>
+                            <div class="trust-label">זמן הגעה ממוצע</div>
+                        </div>
+                        <div class="trust-item">
+                            <div class="trust-number">24/7</div>
+                            <div class="trust-label">זמינות לחירום</div>
+                        </div>
+                        <div class="trust-item">
+                            <div class="trust-number">98%</div>
+                            <div class="trust-label">שביעות רצון</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">השירותים שלנו</h2>
+                    <p class="section-description">מספקים פתרונות אינסטלציה מקצועיים ואמינים עם ניסיון רב ושירות מעולה</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service Card 1 -->
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i data-lucide="droplets" class="icon"></i>
+                            </div>
+                            <h3 class="service-title">איתור נזילות</h3>
+                        </div>
+                        <p class="service-description">איתור מדויק של נזילות בקירות, תקרות ותשתיות מים באמצעות ציוד מתקדם</p>
+                        <ul class="service-features">
+                            <li><span class="bullet"></span>טכנולוגיה מתקדמת</li>
+                            <li><span class="bullet"></span>ללא הריסות</li>
+                            <li><span class="bullet"></span>אחריות על התיקון</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service Card 2 -->
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i data-lucide="wrench" class="icon"></i>
+                            </div>
+                            <h3 class="service-title">פתיחת סתימות</h3>
+                        </div>
+                        <p class="service-description">פתיחת סתימות בכיורים, אסלות, ביוב וצנרת עם ציוד מקצועי</p>
+                        <ul class="service-features">
+                            <li><span class="bullet"></span>פתרון מהיר</li>
+                            <li><span class="bullet"></span>ציוד מקצועי</li>
+                            <li><span class="bullet"></span>מחירים הוגנים</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service Card 3 -->
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i data-lucide="shield" class="icon"></i>
+                            </div>
+                            <h3 class="service-title">תיקון פיצוצי צנרת</h3>
+                        </div>
+                        <p class="service-description">תיקון דחוף של פיצוצי צנרת ונזילות חמורות בזמינות 24/7</p>
+                        <ul class="service-features">
+                            <li><span class="bullet"></span>זמינות 24/7</li>
+                            <li><span class="bullet"></span>תגובה מהירה</li>
+                            <li><span class="bullet"></span>תיקון איכותי</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service Card 4 -->
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i data-lucide="thermometer" class="icon"></i>
+                            </div>
+                            <h3 class="service-title">דודי שמש וחשמל</h3>
+                        </div>
+                        <p class="service-description">התקנה, תיקון ותחזוקה של דודי שמש ודודי חשמל מכל הסוגים</p>
+                        <ul class="service-features">
+                            <li><span class="bullet"></span>התקנה מקצועית</li>
+                            <li><span class="bullet"></span>תחזוקה שוטפת</li>
+                            <li><span class="bullet"></span>חלפים מקוריים</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service Card 5 -->
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i data-lucide="hammer" class="icon"></i>
+                            </div>
+                            <h3 class="service-title">תיקוני אל הרס</h3>
+                        </div>
+                        <p class="service-description">תיקונים מדויקים ללא הריסות מיותרות - חיסכון בזמן, כסף וטרחה</p>
+                        <ul class="service-features">
+                            <li><span class="bullet"></span>ללא הריסות</li>
+                            <li><span class="bullet"></span>טכניקות מתקדמות</li>
+                            <li><span class="bullet"></span>חיסכון בעלויות</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service Card 6 -->
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i data-lucide="waves" class="icon"></i>
+                            </div>
+                            <h3 class="service-title">שירותי ביובית</h3>
+                        </div>
+                        <p class="service-description">פתרונות מקצועיים למערכות ביוב - ניקוי, תיקון והחלפת צנרת ביוב</p>
+                        <ul class="service-features">
+                            <li><span class="bullet"></span>ציוד מתקדם</li>
+                            <li><span class="bullet"></span>פתרונות יעילים</li>
+                            <li><span class="bullet"></span>שירות מקצועי</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service Card 7 -->
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i data-lucide="zap" class="icon"></i>
+                            </div>
+                            <h3 class="service-title">אינסטלציה כללית</h3>
+                        </div>
+                        <p class="service-description">עבודות אינסטלציה מגוונות - ברזים, כיורים, אסלות ועוד</p>
+                        <ul class="service-features">
+                            <li><span class="bullet"></span>מגוון שירותים</li>
+                            <li><span class="bullet"></span>ייעוץ מקצועי</li>
+                            <li><span class="bullet"></span>ביצוע איכותי</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service Card 8 -->
+                    <div class="service-card">
+                        <div class="service-header">
+                            <div class="service-icon">
+                                <i data-lucide="clock" class="icon"></i>
+                            </div>
+                            <h3 class="service-title">שירות חירום</h3>
+                        </div>
+                        <p class="service-description">קריאות חירום 24/7 לפתרון בעיות אינסטלציה דחופות</p>
+                        <ul class="service-features">
+                            <li><span class="bullet"></span>זמין 24/7</li>
+                            <li><span class="bullet"></span>הגעה מהירה</li>
+                            <li><span class="bullet"></span>פתרון מיידי</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Emergency CTA -->
+                <div class="emergency-cta">
+                    <h3 class="emergency-title">יש לכם חירום אינסטלציה?</h3>
+                    <p class="emergency-text">אנחנו כאן בשבילכם 24 שעות ביממה, 7 ימים בשבוע</p>
+                    <a href="tel:050-246-2224" class="btn btn-danger btn-lg">
+                        <i data-lucide="clock" class="icon"></i>
+                        התקשרו עכשיו לחירום
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">מה הלקוחות שלנו אומרים</h2>
+                    <p class="section-description">המלצות אמיתיות מלקוחות מרוצים שקיבלו שירות אינסטלציה מקצועי ואמין</p>
+                </div>
+
+                <!-- Main Testimonial Display -->
+                <div class="testimonial-main">
+                    <div class="testimonial-card-main" id="mainTestimonial">
+                        <div class="testimonial-header">
+                            <i data-lucide="quote" class="quote-icon"></i>
+                            <div class="rating" id="mainRating">
+                                <i data-lucide="star" class="star filled"></i>
+                                <i data-lucide="star" class="star filled"></i>
+                                <i data-lucide="star" class="star filled"></i>
+                                <i data-lucide="star" class="star filled"></i>
+                                <i data-lucide="star" class="star filled"></i>
+                            </div>
+                        </div>
+                        <blockquote class="testimonial-text" id="mainText">
+                            "עידן הגיע במהירות רבה כשהיה לנו פיצוץ בצינור המים. עבד בצורה מקצועית ונקייה, תיקן את הבעיה תוך שעה. מאוד מרוצה מהשירות!"
+                        </blockquote>
+                        <div class="testimonial-footer">
+                            <div class="testimonial-author">
+                                <div class="author-name" id="mainName">דוד כהן</div>
+                                <div class="author-info" id="mainInfo">רעננה • ספטמבר 2024</div>
+                            </div>
+                            <div class="testimonial-service" id="mainService">תיקון פיצוץ צנרת</div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Controls -->
+                    <div class="testimonial-controls">
+                        <button class="control-btn" id="prevBtn" aria-label="המלצה קודמת">
+                            <i data-lucide="chevron-right" class="icon"></i>
+                        </button>
+                        <div class="dots" id="dots"></div>
+                        <button class="control-btn" id="nextBtn" aria-label="המלצה הבאה">
+                            <i data-lucide="chevron-left" class="icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Mini Testimonials Grid -->
+                <div class="testimonials-grid" id="testimonialsGrid"></div>
+
+                <!-- CTA Section -->
+                <div class="testimonial-cta">
+                    <h3 class="cta-title">רוצים להצטרף ללקוחות המרוצים שלנו?</h3>
+                    <p class="cta-text">צרו קשר עכשיו וקבלו שירות אינסטלציה מקצועי ואמין</p>
+                    <div class="cta-buttons">
+                        <a href="tel:050-246-2224" class="btn btn-success btn-lg">התקשרו עכשיו</a>
+                        <a href="#contact" class="btn btn-outline btn-lg">השאירו פרטים</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">צור קשר</h2>
+                    <p class="section-description">מוזמנים ליצור קשר לקבלת ייעוץ מקצועי וקביעת פגישה</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <h3 class="info-title">
+                                <i data-lucide="phone" class="icon"></i>
+                                פרטי התקשרות
+                            </h3>
+                            <div class="info-list">
+                                <div class="info-item">
+                                    <i data-lucide="phone" class="icon-small"></i>
+                                    <div>
+                                        <div class="info-label">טלפון</div>
+                                        <a href="tel:050-246-2224" class="info-link">050-246-2224</a>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <i data-lucide="message-square" class="icon-small"></i>
+                                    <div>
+                                        <div class="info-label">WhatsApp</div>
+                                        <a href="https://wa.me/972502462224?text=שלום עידן, אשמח לעזרה באינסטלציה" target="_blank" rel="noopener noreferrer" class="info-link">050-246-2224</a>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <i data-lucide="mail" class="icon-small"></i>
+                                    <div>
+                                        <div class="info-label">אימייל</div>
+                                        <a href="mailto:Iaplumber95@gmail.com" class="info-link">Iaplumber95@gmail.com</a>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <i data-lucide="map-pin" class="icon-small"></i>
+                                    <div>
+                                        <div class="info-label">אזור שירות</div>
+                                        <div class="info-text">מרכז הארץ ושרון</div>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <i data-lucide="clock" class="icon-small"></i>
+                                    <div>
+                                        <div class="info-label">שעות פעילות</div>
+                                        <div class="info-text">ראשון-שישי 07:00-20:00</div>
+                                        <div class="info-text">שבת - שירות חירום בלבד</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-card emergency-card">
+                            <h3 class="info-title emergency-title">חירום 24/7</h3>
+                            <p class="emergency-description">לקריאות חירום אנחנו זמינים 24 שעות ביממה</p>
+                            <a href="tel:050-246-2224" class="btn btn-danger btn-block">
+                                <i data-lucide="phone" class="icon"></i>
+                                חייגו עכשיו לחירום
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-card">
+                        <h3 class="form-title">שלחו פנייה ב-WhatsApp</h3>
+                        <p class="form-description">מלאו את הפרטים והפנייה תועבר ישירות ל-WhatsApp שלנו</p>
+
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="fullName" class="form-label">שם מלא *</label>
+                                <input type="text" id="fullName" name="fullName" class="form-input" placeholder="הכנס את שמך המלא" required>
+                                <span class="form-error" id="fullNameError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone" class="form-label">טלפון *</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" placeholder="050-123-4567" required>
+                                <span class="form-error" id="phoneError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">אימייל</label>
+                                <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com">
+                                <span class="form-error" id="emailError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="topic" class="form-label">נושא הפנייה *</label>
+                                <select id="topic" name="topic" class="form-input" required>
+                                    <option value="">בחר נושא</option>
+                                    <option value="Clog">סתימה</option>
+                                    <option value="Leak">נזילה</option>
+                                    <option value="Installation">התקנה</option>
+                                    <option value="Repair">תיקון</option>
+                                    <option value="Emergency">חירום</option>
+                                    <option value="Consultation">ייעוץ</option>
+                                    <option value="Other">אחר</option>
+                                </select>
+                                <span class="form-error" id="topicError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="preferredTime" class="form-label">זמן מועדף</label>
+                                <select id="preferredTime" name="preferredTime" class="form-input">
+                                    <option value="">בחר זמן</option>
+                                    <option value="Now">עכשיו</option>
+                                    <option value="Morning">בוקר (07:00-12:00)</option>
+                                    <option value="Noon">צהריים (12:00-15:00)</option>
+                                    <option value="Afternoon">אחר הצהריים (15:00-18:00)</option>
+                                    <option value="Evening">ערב (18:00-20:00)</option>
+                                    <option value="Flexible">גמיש</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">הודעה</label>
+                                <textarea id="message" name="message" class="form-input form-textarea" rows="4" placeholder="תאר את הבעיה או השירות הנדרש..."></textarea>
+                            </div>
+
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="privacyConsent" name="privacyConsent" required>
+                                <label for="privacyConsent">אני מסכים לקבלת עדכונים ופניות לצורך מתן השירות *</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-success btn-lg btn-block">
+                                <i data-lucide="message-square" class="icon"></i>
+                                שלח ב-WhatsApp
+                            </button>
+
+                            <div id="formStatus" class="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating Action Buttons -->
+    <a href="tel:050-246-2224" class="fab fab-call" aria-label="התקשר לעידן אברהמי">
+        <i data-lucide="phone" class="icon"></i>
+    </a>
+    <a href="https://wa.me/972502462224?text=שלום עידן, אשמח לעזרה באינסטלציה" target="_blank" rel="noopener noreferrer" class="fab fab-whatsapp" aria-label="שלח הודעת WhatsApp">
+        <i data-lucide="message-square" class="icon"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
